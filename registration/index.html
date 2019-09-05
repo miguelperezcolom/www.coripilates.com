@@ -9,7 +9,7 @@
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
 <link rel="shortcut icon" href="../wp-content/uploads/2016/09/favicon.ico" type="image/x-icon" />
-<link rel="profile" href="http://gmpg.org/xfn/11" />
+<link rel="profile" href="https://gmpg.org/xfn/11" />
 <link rel="pingback" href="/xmlrpc.php" />
 
 <title>Información - CoriPilates,centro de Pilates en Palma de Mallorca</title>
@@ -298,7 +298,9 @@ fbq('track', "PageView");
 	}
 </style>
 <a href="../index.html" title="CoriPilates,centro de Pilates en Palma de Mallorca" class="logo">
-	<img src="../wp-content/uploads/2016/09/logo_sm_white.png" alt="CoriPilates,centro de Pilates en Palma de Mallorca" /><img class="logo_retina" src="../wp-content/uploads/2016/09/logo_sm_white.png" alt="CoriPilates,centro de Pilates en Palma de Mallorca" /></a>
+	<img src="../wp-content/uploads/2016/09/logo_sm_white.png" alt="CoriPilates,centro de Pilates en Palma de Mallorca" />
+<img class="logo_retina" src="../wp-content/uploads/2016/09/logo_sm_white.png" alt="CoriPilates,centro de Pilates en Palma de Mallorca" />
+</a>
 </div>
 					<div class="resp_nav_wrap">
 						<div class="resp_nav_wrap_inner">
@@ -326,7 +328,8 @@ fbq('track', "PageView");
 <li id="menu-item-6703" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6703 menu-item-depth-0"><a href="../precios.html"><span class="nav_bg_clr"></span><span>Precios</span></a></li>
 <li id="menu-item-6660" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6660 menu-item-depth-0"><a href="../fotos.html"><span class="nav_bg_clr"></span><span>Fotos</span></a></li>
 <li id="menu-item-7216" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7216 menu-item-depth-0"><a href="../horarios.html"><span class="nav_bg_clr"></span><span>Horarios</span></a></li>
-</ul></div></nav>
+</ul></div>
+</nav>
 <!-- _________________________ Finish Navigation _________________________ -->
 </div></div>				<div class="cl"></div>
 			</div>
@@ -497,7 +500,8 @@ jQuery(document).ready(function () {
 				cmsms_elige_tu_horario : jQuery('#cmsms_elige_tu_horario').val(), 
 				cmsms_tu_mensaje : jQuery('#cmsms_tu_mensaje').val(), 
 				contactemail : 'NjQ0MXwjfDY0NDE=', 
-				formname : '6441' 			}, function (data) { 
+				formname : '6441' 
+			}, function (data) { 
 				jQuery('#form_6441 .loading').animate( { opacity : 0 } , 250); 
 				jQuery('#form_6441').fadeOut('slow'); 
 				document.getElementById('form_6441').reset(); 
@@ -505,22 +509,30 @@ jQuery(document).ready(function () {
 				jQuery('#form_6441').parent().find('.success_box').fadeIn('fast'); 
 				jQuery('html, body').animate( { scrollTop : jQuery('#form_6441').offset().top - 140 } , 'slow'); 
 				jQuery('#form_6441').parent().find('.success_box').delay(5000).fadeOut(1000, function () { 
-					jQuery('#form_6441').fadeIn('slow'); 				} ); 			} ); 
-			return false; 		} else { 
+					jQuery('#form_6441').fadeIn('slow'); 
+				} ); 
+			} ); 
+			return false; 
+		} else { 
 			jQuery('#form_6441 .loading').animate( { opacity : 0 } , 250); 
-			return false; 		} 	} ); } ); 
+			return false; 
+		} 
+	} ); 
+} ); 
 </script>
 <form action="../registrarse.html#" method="post" id="form_6441">
 
 <div class="form_info cmsms_input one_half">
 	<label for="cmsms_tu_nombre">Tu nombre <span class="color_2">*</span></label>
 	<div class="form_field_wrap">
-		<input type="text" name="cmsms_tu_nombre" id="cmsms_tu_nombre" value="" size="35" class="validate[required]" />	</div>
+		<input type="text" name="cmsms_tu_nombre" id="cmsms_tu_nombre" value="" size="35" class="validate[required]" />
+	</div>
 </div>
 <div class="form_info cmsms_input one_half">
 	<label for="cmsms_telfono_2">Teléfono <span class="color_2">*</span></label>
 	<div class="form_field_wrap">
-		<input type="text" name="cmsms_telfono_2" id="cmsms_telfono_2" value="" size="35" class="validate[required]" />	</div>
+		<input type="text" name="cmsms_telfono_2" id="cmsms_telfono_2" value="" size="35" class="validate[required]" />
+	</div>
 </div>
 <div class="form_info cmsms_select one_half">
 	<label>Elige tu clase</label>
@@ -532,7 +544,8 @@ jQuery(document).ready(function () {
 			<option value="Combo Studio+matwork">Combo Studio+matwork</option>
 			<option value="Privadas y semiprivadas">Privadas y semiprivadas</option>
 			<option value="Embarazadas y postparto">Embarazadas y postparto</option>
-		</select>	</div>
+		</select>
+	</div>
 	<div class="cl"></div>
 </div>
 <div class="form_info cmsms_select one_half">
@@ -544,13 +557,15 @@ jQuery(document).ready(function () {
 			<option value="Mediodia">Mediodia</option>
 			<option value="Tarde">Tarde</option>
 			<option value="Flexible">Flexible</option>
-		</select>	</div>
+		</select>
+	</div>
 	<div class="cl"></div>
 </div>
 <div class="form_info cmsms_textarea one_first">
 	<label for="cmsms_tu_mensaje">Tu mensaje</label>
 	<div class="form_field_wrap">
-		<textarea name="cmsms_tu_mensaje" id="cmsms_tu_mensaje" cols="60" rows="10"></textarea>	</div>
+		<textarea name="cmsms_tu_mensaje" id="cmsms_tu_mensaje" cols="60" rows="10"></textarea>
+	</div>
 </div>
 <div class="cl"></div>
 <div class="loading"></div>
@@ -573,7 +588,8 @@ jQuery(document).ready(function () {
 	</div>
 <!-- _________________________ Finish Content _________________________ -->
 
-</div></div>
+</div>
+</div>
 </div>
 <!-- _________________________ Finish Middle _________________________ -->
 
@@ -589,10 +605,14 @@ jQuery(document).ready(function () {
 		<div class="social_wrap">
 <ul>
 <li>
-	<a href="https://www.facebook.com/coripilates/" class="cmsms-icon-facebook-circled" title="Facebook" target="_blank"></a></li>
+	<a href="https://www.facebook.com/coripilates/" class="cmsms-icon-facebook-circled" title="Facebook" target="_blank"></a>
+</li>
 <li>
-	<a href="https://es.linkedin.com/in/corina-gitlin-68610842" class="cmsms-icon-linkedin-squared" title="Linkedin" target="_blank"></a></li>
-</ul></div><div class="footer_custom_html">Carrer Arxiduc Lluís Salvador, 19. 07004, Palma de Mallorca, España. Tel: <a href="tel:871032060">871032060</a></div><span class="copyright"> </span>
+	<a href="https://es.linkedin.com/in/corina-gitlin-68610842" class="cmsms-icon-linkedin-squared" title="Linkedin" target="_blank"></a>
+</li>
+</ul>
+</div>
+<div class="footer_custom_html">Carrer Arxiduc Lluís Salvador, 19. 07004, Palma de Mallorca, España. Tel: <a href="tel:871032060">871032060</a></div><span class="copyright"> </span>
 			</div>
 		</div>
 	</footer>
