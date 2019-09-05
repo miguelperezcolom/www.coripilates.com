@@ -1,9 +1,0 @@
-BEGIN:VCALENDAR
-VERSION:2.0
-PRODID:-//CoriPilates,centro de Pilates en Palma de Mallorca - ECPv4.7.2//NONSGML v1.0//EN
-CALSCALE:GREGORIAN
-METHOD:PUBLISH
-X-WR-CALNAME:CoriPilates,centro de Pilates en Palma de Mallorca
-X-ORIGINAL-URL:http://www.coripilates.com
-X-WR-CALDESC:Eventos para CoriPilates,centro de Pilates en Palma de Mallorca
-END:VCALENDAR
